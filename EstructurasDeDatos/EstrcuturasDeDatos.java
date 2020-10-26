@@ -592,7 +592,7 @@ class EstructuraDatos{
         System.out.println("Escriba x para cerrar el programa.");
         System.out.println(" ");
         System.out.println("Programa hecho por:");
-        System.out.println("3IV9_Andrade Aguilar Arturo Imanol");
+        System.out.println("3IV9juarez Diaz isaac");
         letra = entrada.next().charAt(0);
 
     }while(letra == 'm');       
