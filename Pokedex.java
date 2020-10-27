@@ -72,6 +72,68 @@ class pokedex{
                     System.out.println("5. Ataque es" + ataque);
                     System.out.println("6.Ataque secundario  " + ataque2);
                 break;
+
+                case 4://squartle
+               System.out.println("Batalla Pokemon");
+               System.out.println("Opciones");
+               System.out.println(" 1.Charmander");
+               System.out.println("2.Bulbasor");
+               System.out.println("3. Squartle");
+
+               pokemon = entrada.nextInt();
+
+               if (pokemon == 1){
+                System.out.println(" charmander");
+                System.out.println("Atento comediante");
+                System.out.println("Vas a pelear a muerte con squartle");
+                
+                System.out.println("Elige tu ataque, (1= ataque, 2= ataque2");
+
+                ataque = entrada.nextInt();
+                if (ataque == 1){
+                System.out.println("has atcado a bulbasour (planta) con un ataque fuego, el ataque es critico y bulbasour es derrotado");
+                }else{
+                    System.out.println(" es derrotado");
+                    System.out.println("C harmander esta muerto");
+                }
+            }
+
+            if (pokemon == 2){
+                System.out.println(" Bulbasoe");
+                System.out.println("Atento comediante");
+                System.out.println("Vas a pelear a muerte con squartle");
+                
+                System.out.println("Elige tu, (1= ataque, 2= ataque2");
+
+                ataque = entrada.nextInt();
+                if (ataque == 1){
+                System.out.println("has Atacado al contrrtincante");
+                }else{
+                    System.out.println("Bulbasoer esta casi muerto");
+                    System.out.println("saquertle ha sido derrotado y esta cansado");
+                }
+            }
+
+
+            if (pokemon == 3){
+                System.out.println(" Squartle");
+                System.out.println("Atento comediante");
+                System.out.println("Vas a pelear a charmander");
+                
+                System.out.println("Elige tu ataque, (1= ataque, 2= ataque2");
+
+                ataque = entrada.nextInt();
+                if (ataque == 1){
+                System.out.println("has atcado a a charmanders derrotado");
+                }else{
+                    System.out.println("Ya casi es  derrotado");
+                    System.out.println("Esta derrotado");
+                }
+            }
+            break;
+                
+
+                
             }
         } while(opcion != 5);
     }
